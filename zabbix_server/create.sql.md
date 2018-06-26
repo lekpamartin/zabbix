@@ -1,4 +1,5 @@
 # Email
+Starttls with username and password :
 <pre>
 UPDATE media_type SET \
 type=0, \
