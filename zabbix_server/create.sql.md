@@ -1,5 +1,20 @@
-#Email
-
+# Email
+<pre>
+UPDATE media_type SET \
+type=0, \
+smtp_server=smtpauth.mail.saint-gobain.net \
+smtp_helo='zabbix_server'
+smtp_email='digital-tools@saint-gobain.com'
+username='za\CFRsvc-SMTPDI-TOOLS'
+passwd='5wY6Ln.$'
+smtp_port=25 \
+smtp_security=1 \
+smtp_verify_peer=0 \
+smtp_verify_host=0 \
+smtp_authentication=1 \
+status=0 \
+WHERE mediatypeid=1;
+</pre>
 
 # Script 
 <pre>
